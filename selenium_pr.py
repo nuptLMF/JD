@@ -120,7 +120,7 @@ class JD_item(object):
 		
 
 def main():
-	jd_account = '----' #----填入京东账号
+	jd_account = '----' #---填入京东账号
 	jd_pwd = '----'   #----填入京东密码
 	item_word = '----' #----填入你要搜索的物品名称
 	JD = JD_item(jd_account,jd_pwd,item_word) 
